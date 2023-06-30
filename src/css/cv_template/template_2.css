@@ -1,0 +1,134 @@
+:root {
+    --defaultcolor: #29292b;
+    --secondarycolor: #ff9c03;
+}
+
+.wrapper {
+    height: 100dvh;
+}
+
+.right-column {
+    color: white;
+    background-color: var(--defaultcolor);
+}
+
+.left-head-spacer {
+    height: 300px;
+}
+
+.head-spacer {
+    height: 200px;
+}
+
+.cv-head {
+    height: 300px;
+}
+
+.dp-wrapper {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px var(--secondarycolor) solid;
+    transform: translateX(50px);
+}
+
+.names-wrapper {
+    width: calc(100% - 200px);
+    height: 130px;
+    background-color: var(--secondarycolor);
+}
+
+.names-container {
+    min-width: 78%;
+}
+
+.names {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.post {
+    text-transform: uppercase;
+}
+
+.about {
+    font-size: 13px;
+    margin-top: 10px !important;
+}
+
+.wc-titles {
+    text-transform: uppercase;
+    border: 1.5px var(--secondarycolor) solid;
+    border-radius: 6px;
+}
+
+.contact-icon {
+    color: var(--secondarycolor);
+}
+
+.contact-content {
+    font-size: 14px;
+}
+
+.skill-title {
+    font-size: 14px;
+}
+
+.skill-progress-wrapper {
+    height: 15px;
+    border: 1px var(--secondarycolor) solid;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.skill-progress {
+    background-color: var(--secondarycolor);
+    transition: .5s;
+    animation: anp 2s linear;
+    border-radius: 5px;
+}
+
+@keyframes anp {
+    from {
+        background-color: transparent;
+        width: 0;
+    }
+}
+
+.wc-wrapper {
+    width: 90%;
+    height: 50px;
+    background-color: var(--defaultcolor);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.from-to-dot {
+    width: 15px;
+    height: 15px;
+    border: 5px var(--defaultcolor) solid;
+    border-radius: 50%;
+}
+
+.periods {
+    font-size: 14px;
+}
+
+.award-title {
+    font-size: 16px;
+}
+
+.award-icon {
+    font-size: 23px;
+}
+
+.hobbies-wrapper {
+    border-top: 1px var(--secondarycolor) solid;
+}
+
+.hobby {
+    font-size: 13px;
+}

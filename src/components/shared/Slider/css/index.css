@@ -1,0 +1,25 @@
+.slider-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-inner {
+    transition: 1.5s;
+    left: 100%;
+}
+
+
+.active {
+    transition: 1.5s !important;
+    left: 0 !important;
+    z-index: 5;
+}
+
+.slide-left {
+    left: -120% !important;
+}
+
+.move-to-right {
+    opacity: 0 !important;
+    left: 100% !important;
+}

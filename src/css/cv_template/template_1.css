@@ -1,0 +1,248 @@
+:root {
+    /* --defaultcolor: #47877a; */
+    --defaultcolor: #430ca8;
+}
+
+.wrapper {
+    min-height: calc(100vh - 280px);
+    /* height: max-content !important; */
+    height: 100vh !important;
+}
+
+.cv-head {
+    background-color: var(--defaultcolor);
+}
+
+.full-names {
+    font-size: 40px;
+}
+
+.profession-wrapper {
+    width: max-content;
+}
+
+.profession-title {
+    color: white;
+}
+
+.head-line {
+    width: 30%;
+    height: 4px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.shape-left {
+    width: 70px;
+    height: 71px;
+    background-color: var(--defaultcolor);
+    bottom: -70px;
+    left: -15%;
+}
+
+.shape-left::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border-top-left-radius: 30px !important;
+    bottom: 0;
+    left: 25%;
+    z-index: 1;
+}
+
+.shape-right {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    bottom: 0px;
+    right: -15%;
+}
+
+.shape-right::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: var(--defaultcolor);
+    border-bottom-right-radius: 30px !important;
+    bottom: 0;
+    left: -20%;
+    z-index: 1;
+}
+
+.profile-content {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+    margin-top: 20px !important;
+}
+
+
+.skill-wrapper {
+    width: 100%;
+    height: 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: rgb(189, 145, 246);
+    overflow: hidden;
+    color: white;
+}
+
+.skill-inner {
+    background-color: rgb(185, 185, 185);
+    background-color: var(--defaultcolor);
+    border-radius: 20px;
+    transition: 1s;
+    animation: an-skill 3s linear;
+}
+
+@keyframes an-skill {
+    from {
+        width: 0;
+        background-color: transparent;
+    }
+}
+
+.skill-text {
+    z-index: 1;
+}
+
+.hobbie-index {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--defaultcolor);
+    color: white;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.hobbie-title {
+    font-size: 15px;
+}
+
+.wx-grid-wrapper {
+    margin-left: 20px;
+}
+
+.wx-period {
+    color: var(--defaultcolor);
+}
+
+.wx-wrapper {
+    margin-left: 30px;
+    border-left: 3px var(--defaultcolor) dashed;
+
+}
+
+.wx-right {
+    border-left: 1.5px var(--defaultcolor) dashed;
+    padding-bottom: 15px;
+}
+
+.wx-pill {
+    border: 1.6px var(--defaultcolor) solid;
+    left: -13px;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.wx-closing-pill {
+    background-color: var(--defaultcolor);
+    left: -8px;
+    bottom: 0;
+    width: 13px;
+    height: 13px;
+}
+
+.wx-title-name {
+    color: var(--defaultcolor);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.wx-post {
+    color: var(--defaultcolor);
+}
+
+.wx-school {
+    color: rgb(82, 82, 82);
+}
+
+.work-description {
+    font-size: 13px;
+}
+
+.cv-footer {
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    background-color: var(--defaultcolor);
+    color: white;
+    font-size: 12px;
+}
+
+.footer-shape-left {
+    top: -30px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: var(--defaultcolor);
+}
+
+.footer-shape-left::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 25px;
+}
+
+.footer-shape-left::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 25px;
+}
+
+.footer-shape-right {
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.footer-shape-right::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: var(--defaultcolor);
+    border-top-right-radius: 25px;
+}
+
+.footer-shape-right::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    width: 35px;
+    height: 30px;
+    background-color: var(--defaultcolor);
+    border-top-right-radius: 25px;
+}

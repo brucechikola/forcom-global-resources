@@ -1,0 +1,136 @@
+:root {
+    --defaultwhite: #f1f1f1;
+}
+
+.navbar {
+    height: 80px;
+    position: fixed;
+    top: 5px;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar-content {
+    width: 80%;
+}
+
+.menu-btn {
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.menu-btn .spn {
+    height: 4px;
+    border-radius: 20px;
+    background-color: var(--defaultwhite);
+    margin-bottom: 10px;
+}
+
+.spn1 {
+    width: 70%;
+    transition: .7s;
+    animation: sp1 1s ease-in-out;
+}
+
+.spn2 {
+    width: 85%;
+    transition: 1s;
+    animation: sp2 1.5s ease-in-out;
+}
+
+.spn3 {
+    width: 100%;
+    transition: .7s;
+    animation: sp3 2s ease-in-out;
+}
+
+.menu-btn:hover .spn1:not(.sp1-exp) {
+    transform: translateX(-10%);
+    width: 100%;
+}
+
+.menu-btn:hover .spn2:not(.sp2-exp) {
+    transform: translateX(10%);
+    width: 90%;
+}
+
+.menu-btn:hover .spn3:not(.sp3-exp) {
+    transform: translateX(15%);
+    width: 70%;
+}
+
+@keyframes sp1 {
+    0% {
+        transform: translateX(-30%);
+        width: 100%;
+    }
+
+    95% {
+        width: 90%;
+    }
+}
+
+@keyframes sp2 {
+    0% {
+        transform: translateX(-40%);
+        width: 100%;
+    }
+
+    95% {
+        width: 90%;
+    }
+}
+
+@keyframes sp3 {
+    0% {
+        width: 10px;
+        height: 5px;
+        border-radius: 50%;
+        transform: translateX(-60px);
+    }
+
+    30% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-60px);
+    }
+
+    70% {
+        width: 10px;
+    }
+}
+
+.sp1-exp {
+    transform: rotate(45deg);
+    width: 50px;
+}
+
+.sp2-exp {
+    transform: rotate(-45deg);
+    width: 50px;
+}
+
+.sp3-exp {
+    transform: rotate(-145deg);
+    width: 0;
+}
+
+.nav-link {
+    color: var(--defaultwhite);
+    transition: .5s;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: rgb(226, 226, 226, 30%);
+}
+
+.nav-link.active {
+    background-color: #4094e4;
+    color: white;
+}
