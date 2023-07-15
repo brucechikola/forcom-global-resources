@@ -1,6 +1,7 @@
 
 import Career from "views/career"
 import Home from "views/home"
+import Sectors from "views/sectors"
 export default [
 
     {
@@ -24,7 +25,7 @@ export default [
         items: []
     },
     {
-        element: <Home />,
+        element: <Sectors />,
         path: '/sectors',
         title: 'Sectors',
         isRoot: true,
