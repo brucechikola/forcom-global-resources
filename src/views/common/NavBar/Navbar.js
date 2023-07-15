@@ -15,7 +15,7 @@ const Navbar = () => {
   const loc = useLocation()
   const [pos, setPos] = useState('fixed')
   useEffect(() => {
-    if (loc.pathname === '/landing' || loc.pathname === '/homepage') {
+    if (loc.pathname === '/landing' || loc.pathname === '/homepage' || loc.pathname === '/sectors') {
       setPos('fixed')
     }
     else {
@@ -23,7 +23,7 @@ const Navbar = () => {
     }
   }, [])
   useEffect(() => {
-    if (loc.pathname === '/landing' || loc.pathname === '/homepage') {
+    if (loc.pathname === '/landing' || loc.pathname === '/homepage' || loc.pathname === '/sectors') {
       setPos('fixed')
       ref.current.style.opacity = 0
       const scrollHeight = document.body.scrollHeight
