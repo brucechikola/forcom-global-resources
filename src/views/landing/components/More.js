@@ -25,7 +25,7 @@ export default function More() {
                     </div>
                     <div className="w-full min-h-[470px] bg-gray-50 p-5">
                         <div className="text-[35px] font-bold text-slate-800">ICT solutions and System Integration</div>
-                        <p className="">
+                        <div className="">
                             With a digital global village in site, we have been developing ict systems for every sector to make consumers find
                             information and products easily in education, commercial world and economic sector environment,
                             Equipment and machinery monitoring technologies, payment gateways and systems.
@@ -50,7 +50,7 @@ export default function More() {
                                 <a href="#">sms.fgr.co.zm</a>
                             </div>
 
-                        </p>
+                        </div>
                         <button className="flex items-center justify-center w-[220px] h-[50px] rounded-md bg-tertiary text-white my-8">Learn More</button>
                     </div>
                     <div className="w-full min-h-[470px] bg-gray-50 p-5">

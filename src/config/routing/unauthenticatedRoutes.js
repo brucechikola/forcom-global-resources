@@ -1,4 +1,5 @@
 
+import Career from "views/career"
 import Home from "views/home/Home"
 import Landing from "views/landing"
 export default [
@@ -14,7 +15,7 @@ export default [
         items: []
     },
     {
-        element: <Landing />,
+        element: <Career />,
         path: '/career',
         title: 'Career',
         isRoot: true,

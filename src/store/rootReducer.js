@@ -1,15 +1,16 @@
 import { combineReducers } from 'redux'
 import auth from './auth'
 import layout from './layout'
-import cvData from './cvdata'
 import uiController from './uicontroller'
+import career from './career/careerSlice'
 const rootReducer = (asyncReducers) => (state, action) => {
     const combinedReducer = combineReducers({
         layout,
         auth,
-        cvData,
         uiController,
+        career,
         ...asyncReducers,
+
     })
     return combinedReducer(state, action)
 }

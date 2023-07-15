@@ -1,7 +1,10 @@
 import SectionWrapper from 'hoc'
 import React, { useEffect, useRef } from 'react'
-import { MdChevronLeft, MdChevronRight, MdPlayArrow, MdPlayCircleFilled, MdPlayCircleOutline } from 'react-icons/md'
+import { MdChevronLeft, MdChevronRight, MdPlayArrow, MdPlayCircleFilled, MdPlayCircleOutline, MdWork } from 'react-icons/md'
+import { BiWorld } from 'react-icons/bi'
 import About from './About'
+import { AiOutlineProject } from 'react-icons/ai'
+import { FaUsers } from 'react-icons/fa'
 const Hero = () => {
     const bg = useRef()
     useEffect(() => {
@@ -27,17 +30,15 @@ const Hero = () => {
                 <div className="w-full h-full flex items-start justify-center flex-col col-span-2">
                     <h1 className="hero-title text-[50px] font-bold m-0 w-[70%]" style={{ lineHeight: 1.4 }}>Welcome to Forcom Global Resources</h1>
                     <p className="hero-desc">
-                        <p className="hero-desc">
-                            We are a global business development and sustainability company which is incorporated and
-                            established in lusaka from 2020. Our Enterprise culture &
-                            values revolve around fulfilling the outcomes of all potential opportunities for
-                            businesses or ideas that want to develop and grow through diversification.
-                        </p>
+                        We are a global business development and sustainability company which is incorporated and
+                        established in lusaka from 2020. Our Enterprise culture &
+                        values revolve around fulfilling the outcomes of all potential opportunities for
+                        businesses or ideas that want to develop and grow through diversification and collaboration.
                     </p>
                     <div className="flex -tems-center justify-start mt-10">
                         <button className="w-[250px] shadow-default h-[60px] grid grid-cols-4 bg-gray-200 text-[17px] font-semibold rounded-md text-black transition hover:translate-x-[-3%] overflow-hidden">
                             <div className="col-span-3 w-full h-full flex items-center justify-center">Learn More</div>
-                            <div className="bg-indigo-800 text-white flex items-center justify-center w-full h-full">
+                            <div className="bg-tertiary text-white flex items-center justify-center w-full h-full">
                                 <MdChevronRight size={30} />
                             </div>
                         </button>
@@ -45,6 +46,27 @@ const Hero = () => {
                             <MdPlayCircleFilled className='mr-3 text-[30px]' />
                             Watch Video
                         </button>
+                    </div>
+                    <div className="w-[100%] grid grid-cols-4 gap-x-4 mt-10 border-t border-gray-500 border-t-[3px] text-gray-300">
+                        <div className="col-span-4 my-3 font-bold">AT A GLANCE</div>
+                        <div className="w-full flex items-center jusitfy-center flex-col bg-tertiary h-[80px] rounded-md p-3 shadow-darker">
+                            <FaUsers size={35} />
+                            <div className="font-bold text-center mt-2 text-[13px]">
+                                Total Of 25 Workforce
+                            </div>
+                        </div>
+                        <div className="w-full flex items-center jusitfy-center flex-col bg-tertiary h-[80px] rounded-md p-3 shadow-darker">
+                            <AiOutlineProject size={35} />
+                            <div className="font-bold text-center mt-2 text-[13px]">
+                                100 Activities
+                            </div>
+                        </div>
+                        <div className="w-full flex items-center jusitfy-center flex-col bg-tertiary h-[80px] rounded-md p-3 shadow-darker">
+                            <BiWorld size={35} />
+                            <div className="font-bold text-center mt-2 text-[13px]">
+                                Present in 4 Countries
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="absolute w-[350px] h-[40px] grid grid-cols-4 bottom-0 right-0 gap-x-[10px]">
