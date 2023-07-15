@@ -1,28 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
+import sectors from 'constants/sectors.json';
 const initialState = {
-    sectors: [
-        {
-            title: 'Engineering'
-        },
-        'Finance & accounting',
-        'Construction',
-        'Agriculture & food production',
-        'Production & supply chain',
-        'Veterinary services',
-        'Mining and gemstone industry',
-        'Global Market Agency & trade Management',
-        'Education'
-    ],
-    currentSelector: '',
+    sectors: sectors,
+    selected_sector: sectors[0],
 }
 export const sectorSlice = createSlice({
     name: 'sectorSlice',
     initialState,
     reducers: {
-        setRegistrationStage: (state, action) => {
-            state.registration_stage = action.payload
+        setSelectedSector: (state, action) => {
+            state.selected_sector = action.payload
         }
     }
 })
-export const { setRegistrationStage } = sectorSlice.actions
+export const { setSelectedSector } = sectorSlice.actions
 export default sectorSlice.reducer
