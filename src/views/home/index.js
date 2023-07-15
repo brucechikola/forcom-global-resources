@@ -1,2 +1,3 @@
-import { home } from "config/routing/routeIcons"
-export default home
+import Landing from "./Landing";
+
+export default Landing

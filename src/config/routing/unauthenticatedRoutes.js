@@ -1,11 +1,10 @@
 
 import Career from "views/career"
-import Home from "views/home/Home"
-import Landing from "views/landing"
+import Home from "views/home"
 export default [
 
     {
-        element: <Landing />,
+        element: <Home />,
         path: '/landing',
         title: 'Homepage',
         isRoot: true,
@@ -25,7 +24,7 @@ export default [
         items: []
     },
     {
-        element: <Landing />,
+        element: <Home />,
         path: '/sectors',
         title: 'Sectors',
         isRoot: true,
@@ -35,7 +34,7 @@ export default [
         items: []
     },
     {
-        element: <Landing />,
+        element: <Home />,
         path: '/partners',
         title: 'Partners',
         isRoot: true,
@@ -45,7 +44,7 @@ export default [
         items: []
     },
     {
-        element: <Landing />,
+        element: <Home />,
         path: '/registr',
         title: 'Register',
         isRoot: true,
@@ -56,7 +55,7 @@ export default [
     },
 
     {
-        element: <Landing />,
+        element: <Home />,
         path: '/landing',
         title: 'About',
         isRoot: true,
