@@ -26,7 +26,7 @@ export default function Hero() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}
-            className='w-full h-[600px] bg-tertiary'
+            className='w-full h-[680px] bg-tertiary'
         >
             <div className="w-[80%] mx-auto h-full flex items-start justify-center flex-col text-white relative">
                 <h1 className='font-bold w-[70%] text-[50px]'>{selected_sector.title} Sector</h1>

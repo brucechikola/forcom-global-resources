@@ -7,7 +7,7 @@ export default function More() {
             <div className="w-[83%] min-h-[400px] mt-[50px]">
                 <div className="w-full my-5 text-black">
                     <span className="text-indigo-700 text-[14px]">Business As Usual</span>
-                    <div className="text-[50px] font-bold text-slate-800">Our Experience</div>
+                    <div className="text-[50px] font-bold text-slate-800"><span className='text-blue-800'>Our</span> Experience</div>
                     <p className="w-full lg:w-[60%]">
                         Since 2020, we have been involved in the following activities which have strengthened our experience to understand our clients and market demand better.
                     </p>

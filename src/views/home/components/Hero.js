@@ -28,7 +28,7 @@ const Hero = () => {
 
             <div className="w-[85%] mx-auto min-h-[80vh] grid grid-cols-3 relative">
                 <div className="w-full h-full flex items-start justify-center flex-col col-span-2">
-                    <h1 className="hero-title text-[50px] font-bold m-0 w-[70%] text-white" style={{ lineHeight: 1.4 }}>Welcome to Forcom Global Resources</h1>
+                    <h1 className="hero-title text-[50px] font-bold m-0 w-[70%] text-white" style={{ lineHeight: 1.4 }}>Welcome to <br /> Designer Tech</h1>
                     <p className="hero-desc text-white">
                         We are a global business development and sustainability company which is incorporated and
                         established in lusaka from 2020. Our Enterprise culture &
@@ -47,7 +47,7 @@ const Hero = () => {
                             Watch Video
                         </button>
                     </div>
-                    <div className="w-[100%] grid grid-cols-4 gap-x-4 mt-10 border-t border-gray-500 border-t-[3px] text-gray-300">
+                    {/* <div className="w-[100%] grid grid-cols-4 gap-x-4 mt-10 border-t border-gray-500 border-t-[3px] text-gray-300">
                         <div className="col-span-4 my-3 font-bold">AT A GLANCE</div>
                         <div className="w-full flex items-center jusitfy-center flex-col bg-tertiary h-[80px] rounded-md p-3 shadow-darker">
                             <FaUsers size={35} />
@@ -67,7 +67,7 @@ const Hero = () => {
                                 Present in 4 Countries
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="absolute w-[350px] h-[40px] grid grid-cols-4 bottom-0 right-0 gap-x-[10px]">
                     <div className="col-span-3 flex items-center justify-center w-full relative">

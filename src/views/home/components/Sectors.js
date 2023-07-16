@@ -4,7 +4,9 @@ import { SiGodotengine } from 'react-icons/si'
 import { GiFarmTractor, GiTakeMyMoney, GiWorld } from 'react-icons/gi'
 import { MdOutlineConstruction, MdOutlineHomeRepairService, MdProductionQuantityLimits, MdSchool } from 'react-icons/md'
 import { BsMinecart } from 'react-icons/bs'
+import { useSelector } from 'react-redux'
 export default function Sectors() {
+    const { sectors, selected_sector } = useSelector(state => state.sector)
     return (
         <div className='w-full bg-tertiary min-h-[400px] pt-5 flex items-center justify-center flex-col text-white pb-10'>
             <div className="w-[83%] min-h-[400px] mt-[50px]">
@@ -16,15 +18,18 @@ export default function Sectors() {
                     </p>
                 </div>
                 <div className="grid grid-cols-3 w-full my-8">
-                    <Sector title="Engineering" icon={<SiGodotengine />} />
-                    <Sector title="Finance & accounting" icon={<GiTakeMyMoney />} />
+                    {
+                        sectors.map(s => <Sector data={s} icon={<SiGodotengine />} />)
+                    }
+
+                    {/* <Sector title="Finance & accounting" icon={<GiTakeMyMoney />} />
                     <Sector title="Construction" icon={<MdOutlineConstruction />} />
                     <Sector title="Agriculture & food production" icon={<GiFarmTractor />} />
                     <Sector title="Production & supply chain" icon={<MdProductionQuantityLimits />} />
                     <Sector title="Veterinary services" icon={<MdOutlineHomeRepairService />} />
                     <Sector title="Mining and gemstone industry" icon={<BsMinecart />} />
                     <Sector title="Global Market Agency & trade Management" icon={<GiWorld />} />
-                    <Sector title="Education" icon={<MdSchool />} />
+                    <Sector title="Education" icon={<MdSchool />} /> */}
                 </div>
             </div>
         </div>

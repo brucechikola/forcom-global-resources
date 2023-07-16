@@ -32,7 +32,6 @@ const Navbar = () => {
         let opacity = 0
         if (top > 0) {
           opacity = (top / (scrollHeight / 20)).toFixed(0)
-          console.log(opacity)
           if (opacity <= 1) {
             ref.current.style.opacity = opacity
           }
