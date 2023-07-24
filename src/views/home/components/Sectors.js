@@ -21,15 +21,6 @@ export default function Sectors() {
                     {
                         sectors.map(s => <Sector data={s} icon={<SiGodotengine />} />)
                     }
-
-                    {/* <Sector title="Finance & accounting" icon={<GiTakeMyMoney />} />
-                    <Sector title="Construction" icon={<MdOutlineConstruction />} />
-                    <Sector title="Agriculture & food production" icon={<GiFarmTractor />} />
-                    <Sector title="Production & supply chain" icon={<MdProductionQuantityLimits />} />
-                    <Sector title="Veterinary services" icon={<MdOutlineHomeRepairService />} />
-                    <Sector title="Mining and gemstone industry" icon={<BsMinecart />} />
-                    <Sector title="Global Market Agency & trade Management" icon={<GiWorld />} />
-                    <Sector title="Education" icon={<MdSchool />} /> */}
                 </div>
             </div>
         </div>
