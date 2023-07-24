@@ -28,7 +28,7 @@ const Hero = () => {
 
             <div className="w-[85%] mx-auto min-h-[80vh] grid grid-cols-3 relative">
                 <div className="w-full h-full flex items-start justify-center flex-col col-span-2">
-                    <h1 className="hero-title text-[50px] font-bold m-0 w-[70%] text-white" style={{ lineHeight: 1.4 }}>Welcome to <br /> Designer Tech</h1>
+                    <h1 className="hero-title text-[50px] font-bold m-0 w-[70%] text-white" style={{ lineHeight: 1.4 }}>Welcome to <br /> Forcom Global Resources</h1>
                     <p className="hero-desc text-white">
                         We are a global business development and sustainability company which is incorporated and
                         established in lusaka from 2020. Our Enterprise culture &
