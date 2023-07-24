@@ -47,7 +47,7 @@ const Hero = () => {
                             Watch Video
                         </button>
                     </div>
-                    {/* <div className="w-[100%] grid grid-cols-4 gap-x-4 mt-10 border-t border-gray-500 border-t-[3px] text-gray-300">
+                    <div className="w-[100%] grid grid-cols-4 gap-x-4 mt-10 border-t border-gray-500 border-t-[3px] text-gray-300">
                         <div className="col-span-4 my-3 font-bold">AT A GLANCE</div>
                         <div className="w-full flex items-center jusitfy-center flex-col bg-tertiary h-[80px] rounded-md p-3 shadow-darker">
                             <FaUsers size={35} />
@@ -67,7 +67,7 @@ const Hero = () => {
                                 Present in 4 Countries
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
                 <div className="absolute w-[350px] h-[40px] grid grid-cols-4 bottom-0 right-0 gap-x-[10px]">
                     <div className="col-span-3 flex items-center justify-center w-full relative">
