@@ -5,13 +5,10 @@ import More from './components/More'
 import Sectors from './components/Sectors'
 import Footer from 'views/common/Footer'
 
-export default function Landing() {
+export default function Home() {
     return (
-        <div className='w-full p-0'>
+        <div className='w-full p-0 h-screen overflow-hidden'>
             <Hero />
-            <More />
-            <Sectors />
-            <Footer />
         </div>
     )
 }

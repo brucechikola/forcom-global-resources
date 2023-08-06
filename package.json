@@ -37,6 +37,7 @@
     "redux-persist": "^6.0.0",
     "stream": "^0.0.2",
     "stream-browserify": "^3.0.0",
+    "swiper": "^10.1.0",
     "tailwind-safelist-generator": "^1.0.0",
     "three": "^0.150.1",
     "use-file-picker": "^1.6.1",

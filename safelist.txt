@@ -250,6 +250,8 @@ text-primary
 text-primary-transparent
 text-secondary
 text-tertiary
+text-second
+text-third
 text-tertiary-transparent
 text-tertiary-transparent2
 text-dark-purple
@@ -509,6 +511,8 @@ bg-primary
 bg-primary-transparent
 bg-secondary
 bg-tertiary
+bg-second
+bg-third
 bg-tertiary-transparent
 bg-tertiary-transparent2
 bg-dark-purple
@@ -768,6 +772,8 @@ dark:bg-primary
 dark:bg-primary-transparent
 dark:bg-secondary
 dark:bg-tertiary
+dark:bg-second
+dark:bg-third
 dark:bg-tertiary-transparent
 dark:bg-tertiary-transparent2
 dark:bg-dark-purple
@@ -1027,6 +1033,8 @@ dark:hover:bg-primary
 dark:hover:bg-primary-transparent
 dark:hover:bg-secondary
 dark:hover:bg-tertiary
+dark:hover:bg-second
+dark:hover:bg-third
 dark:hover:bg-tertiary-transparent
 dark:hover:bg-tertiary-transparent2
 dark:hover:bg-dark-purple
@@ -1286,6 +1294,8 @@ dark:active:bg-primary
 dark:active:bg-primary-transparent
 dark:active:bg-secondary
 dark:active:bg-tertiary
+dark:active:bg-second
+dark:active:bg-third
 dark:active:bg-tertiary-transparent
 dark:active:bg-tertiary-transparent2
 dark:active:bg-dark-purple
@@ -1545,6 +1555,8 @@ hover:text-primary
 hover:text-primary-transparent
 hover:text-secondary
 hover:text-tertiary
+hover:text-second
+hover:text-third
 hover:text-tertiary-transparent
 hover:text-tertiary-transparent2
 hover:text-dark-purple
@@ -1804,6 +1816,8 @@ hover:bg-primary
 hover:bg-primary-transparent
 hover:bg-secondary
 hover:bg-tertiary
+hover:bg-second
+hover:bg-third
 hover:bg-tertiary-transparent
 hover:bg-tertiary-transparent2
 hover:bg-dark-purple
@@ -2063,6 +2077,8 @@ active:bg-primary
 active:bg-primary-transparent
 active:bg-secondary
 active:bg-tertiary
+active:bg-second
+active:bg-third
 active:bg-tertiary-transparent
 active:bg-tertiary-transparent2
 active:bg-dark-purple
@@ -2322,6 +2338,8 @@ ring-primary
 ring-primary-transparent
 ring-secondary
 ring-tertiary
+ring-second
+ring-third
 ring-tertiary-transparent
 ring-tertiary-transparent2
 ring-dark-purple
@@ -2581,6 +2599,8 @@ hover:ring-primary
 hover:ring-primary-transparent
 hover:ring-secondary
 hover:ring-tertiary
+hover:ring-second
+hover:ring-third
 hover:ring-tertiary-transparent
 hover:ring-tertiary-transparent2
 hover:ring-dark-purple
@@ -2840,6 +2860,8 @@ focus:ring-primary
 focus:ring-primary-transparent
 focus:ring-secondary
 focus:ring-tertiary
+focus:ring-second
+focus:ring-third
 focus:ring-tertiary-transparent
 focus:ring-tertiary-transparent2
 focus:ring-dark-purple
@@ -3099,6 +3121,8 @@ focus-within:ring-primary
 focus-within:ring-primary-transparent
 focus-within:ring-secondary
 focus-within:ring-tertiary
+focus-within:ring-second
+focus-within:ring-third
 focus-within:ring-tertiary-transparent
 focus-within:ring-tertiary-transparent2
 focus-within:ring-dark-purple
@@ -3358,6 +3382,8 @@ border-primary
 border-primary-transparent
 border-secondary
 border-tertiary
+border-second
+border-third
 border-tertiary-transparent
 border-tertiary-transparent2
 border-dark-purple
@@ -3617,6 +3643,8 @@ focus:border-primary
 focus:border-primary-transparent
 focus:border-secondary
 focus:border-tertiary
+focus:border-second
+focus:border-third
 focus:border-tertiary-transparent
 focus:border-tertiary-transparent2
 focus:border-dark-purple
@@ -3876,6 +3904,8 @@ focus-within:border-primary
 focus-within:border-primary-transparent
 focus-within:border-secondary
 focus-within:border-tertiary
+focus-within:border-second
+focus-within:border-third
 focus-within:border-tertiary-transparent
 focus-within:border-tertiary-transparent2
 focus-within:border-dark-purple
@@ -4135,6 +4165,8 @@ dark:text-primary
 dark:text-primary-transparent
 dark:text-secondary
 dark:text-tertiary
+dark:text-second
+dark:text-third
 dark:text-tertiary-transparent
 dark:text-tertiary-transparent2
 dark:text-dark-purple
@@ -4394,6 +4426,8 @@ dark:hover:text-primary
 dark:hover:text-primary-transparent
 dark:hover:text-secondary
 dark:hover:text-tertiary
+dark:hover:text-second
+dark:hover:text-third
 dark:hover:text-tertiary-transparent
 dark:hover:text-tertiary-transparent2
 dark:hover:text-dark-purple

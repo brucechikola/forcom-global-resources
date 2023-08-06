@@ -1,13 +1,12 @@
 
-import Career from "views/career"
 import Home from "views/home"
-import Sectors from "views/sectors"
+import Impact from "views/impact"
 export default [
 
     {
         element: <Home />,
-        path: '/landing',
-        title: 'Homepage',
+        path: '/home',
+        title: 'Home',
         isRoot: true,
         includeInNav: true,
         icon: '',
@@ -15,9 +14,9 @@ export default [
         items: []
     },
     {
-        element: <Career />,
-        path: '/career',
-        title: 'Career',
+        element: '',
+        path: '/news',
+        title: 'News',
         isRoot: true,
         includeInNav: true,
         icon: '',
@@ -25,9 +24,19 @@ export default [
         items: []
     },
     {
-        element: <Sectors />,
-        path: '/sectors',
-        title: 'Sectors',
+        element: <Impact />,
+        path: '/impact',
+        title: 'Impact',
+        isRoot: false,
+        includeInNav: true,
+        icon: '',
+        roles: [],
+        items: []
+    },
+    {
+        element: '',
+        path: '/investors',
+        title: 'Investors',
         isRoot: true,
         includeInNav: true,
         icon: '',
@@ -35,30 +44,9 @@ export default [
         items: []
     },
     {
-        element: <Home />,
-        path: '/partners',
-        title: 'Partners',
-        isRoot: true,
-        includeInNav: true,
-        icon: '',
-        roles: [],
-        items: []
-    },
-    {
-        element: <Home />,
-        path: '/registr',
-        title: 'Register',
-        isRoot: true,
-        includeInNav: true,
-        icon: '',
-        roles: [],
-        items: []
-    },
-
-    {
-        element: <Home />,
-        path: '/landing',
-        title: 'About',
+        element: '',
+        path: '/crs',
+        title: 'CRS',
         isRoot: true,
         includeInNav: true,
         icon: '',

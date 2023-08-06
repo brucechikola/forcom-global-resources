@@ -20,7 +20,7 @@ export default function Hero() {
     return (
         <div
             style={{
-                clipPath: 'polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0)',
+                // clipPath: 'polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0)',
                 backgroundImage: `linear-gradient(rgb(0,0,0,50%), rgba(0,0,0,60%)), url(${selected_sector.background})`,
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
@@ -32,8 +32,8 @@ export default function Hero() {
                 <h1 className='font-bold w-[70%] text-[50px]'>{selected_sector.title} Sector</h1>
                 <p className="w-[60%] text-white">{selected_sector.brief}</p>
                 <button className="w-[300px] h-[60px] rounded-md bg-white text-black mt-3 flex items-center justify-center">
-                    Become A Member Now
-                    <MdArrowRight className='text-[30px]' />
+                    Get Stared Now
+                    <MdArrowRight className='text-[30px] text-default' />
                 </button>
                 <button
                     onClick={() => onNext()}

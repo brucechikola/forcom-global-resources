@@ -5,7 +5,6 @@ import Logo from 'components/template/Logo'
 import unauthenticatedRoutes from 'config/routing/unauthenticatedRoutes'
 import { fadeIn } from 'utils/motion/motion'
 import { styles } from 'styles'
-import SectionWrapper from 'hoc'
 import { Unique } from 'functions/common'
 import DropDwon from './DropDwon'
 import { useLocation } from 'react-router-dom'
@@ -23,7 +22,7 @@ const Navbar = () => {
     }
   }, [])
   useEffect(() => {
-    if (loc.pathname === '/landing' || loc.pathname === '/homepage' || loc.pathname === '/sectors') {
+    if (loc.pathname === '/home' || loc.pathname === '/' || loc.pathname === '/impact') {
       setPos('fixed')
       ref.current.style.opacity = 0
       const scrollHeight = document.body.scrollHeight

@@ -3,7 +3,7 @@ import Header from 'components/template/Header'
 export default function AdminLayout(props) {
     return (
         <div className='w-full'>
-            {/* <Header /> */}
+            <Header />
             {props.children}
         </div>
     )

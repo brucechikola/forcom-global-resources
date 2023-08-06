@@ -7,94 +7,114 @@
         "bulletise": true,
         "bullets": [
             {
-                "title": "Our Collaborative Approach in Agriculture",
-                "img": "img/others/herobg.png",
-                "content": "Our agricultural approach is built on strong collaboration with both small-scale and commercial farmers. Through mutual partnerships, we share expertise, resources, and best practices, fostering a community-driven approach to farming. This collaborative effort empowers farmers to optimize their productivity while promoting sustainable agricultural practices"
-            },
-            {
-                "title": "Diverse Crop Cultivation",
-                "img": "img/others/herobg.png",
-                "content": "At the heart of our agricultural operations is a commitment to cultivating a diverse range of cash crops and high-value crops. By diversifying our crop portfolio, we mitigate risks associated with overreliance on a single crop and adapt to market fluctuations. Additionally, crop rotation techniques enhance soil health, reducing the need for chemical fertilizers and promoting long-term ecological balance"
-            },
-            {
-                "title": "Tobacco (50 tons per year)",
-                "img": "img/others/herobg.png",
+                "title": "Tobacco",
+                "tons": "(50 tons per year)",
+                "img": "img/others/tobbacco field 0.png",
                 "content": "Our tobacco cultivation adheres to strict quality standards, ensuring a premium product that meets global demands. We collaborate closely with tobacco experts to stay updated on industry trends and deliver exceptional yields year after year"
             },
             {
-                "title": "Soybeans (480 tons per year)",
-                "img": "img/others/herobg.png",
+                "title": "Soybeans",
+                "tons": "(480 tons per year)",
+                "img": "img/others/beans.jpg",
                 "content": "Soybeans play a vital role in our crop rotation strategy, as they enrich the soil with nitrogen and support sustainable farming practices. Our focus on soybean research and advanced agronomy techniques enhances our soybean yields and contributes to a greener environment"
             },
             {
-                "title": "Maize (870 tons per year)",
-                "img": "img/others/herobg.png",
+                "title": "Maize",
+                "tons": "(870 tons per year)",
+                "img": "img/others/maize.jpeg",
                 "content": "Maize is a staple crop in various industries, from food production to animal feed. Our cutting-edge cultivation methods and investment in modern harvesting equipment ensure a consistent supply of high-quality maize"
             },
             {
-                "title": "Wheat (1050 tons per year)",
-                "img": "img/others/herobg.png",
+                "title": "Wheat",
+                "tons": "(1050 tons per year)",
+                "img": "img/others/wheat field in  0.png",
                 "content": "Our partnership with wheat growers enables us to access prime farmlands suitable for wheat cultivation. This collaboration optimizes yield and ensures the timely delivery of "
             },
             {
-                "title": "Irish Potatoes (800 tons per year)",
-                "img": "img/others/herobg.png",
+                "title": "Irish Potatoes",
+                "tons": "(800 tons per year)",
+                "img": "img/others/soaked Irish Po 0.png",
                 "content": "Irish potatoes thrive in specific climates, and our strategic partnerships with farmers in these regions ensure a steady supply throughout the year. Our adherence to quality control standards guarantees fresh, premium potatoes."
             },
             {
-                "title": "Onions (600 tons packed in 10-kilogram bags)",
-                "img": "img/others/herobg.png",
+                "title": "Onions",
+                "tons": "(600 tons packed in 10-kilogram bags)",
+                "img": "img/others/clean onion wit 0.png",
                 "content": "Onions are a staple in many cuisines, and our partnership with farmers specializing in onion cultivation ensures a consistent and convenient supply of high-quality onions to both retail and wholesale markets."
             },
             {
-                "title": "Tomatoes (300 boxes per week)",
-                "img": "img/others/herobg.png",
+                "title": "Tomatoes",
+                "tons": "(300 boxes per week)",
+                "img": "img/others/a group of blac 0.png",
                 "content": "Our greenhouse tomato production allows for year-round harvests, enabling us to meet the demand for fresh, ripe tomatoes even during off-seasons. Our commitment to sustainable farming practices ensures a reduced ecological footprint."
             },
             {
-                "title": "Cabbages (15,000 heads every fortnight)",
-                "img": "img/others/herobg.png",
+                "title": "Cabbages",
+                "tons": "(15,000 heads every fortnight)",
+                "img": "img/others/Cabbage field i 1.png",
                 "content": "Our cabbage cultivation leverages advanced agronomic techniques to produce healthy, robust cabbages with a longer shelf life. This consistency in supply makes us a reliable partner in the market"
-            },
-            {
-                "title": "Year-round Farming Activities",
-                "img": "img/others/herobg.png",
-                "content": "Unlike traditional seasonal farming, our year-round farming activities ensure a consistent and reliable supply of crops throughout the year. We implement greenhouse farming, hydroponics, and controlled-environment agriculture to overcome seasonal constraints and fulfill market demands consistently."
             }
         ]
     },
     {
         "title": "Construction",
-        "background": "img/others/land3.gif",
+        "background": "img/others/construction.jpg",
         "brief": "Modernizing Infrastructure for Sustainable Habitation and Commercial Use. At the heart of our construction division lies a vision of transforming both rural and urban landscapes into modern, habitable, and affordable spaces.",
         "description": "Modernizing Infrastructure for Sustainable Habitation and Commercial Use. At the heart of our construction division lies a vision of transforming both rural and urban landscapes into modern, habitable, and affordable spaces. Our mission is to bring about positive change in people's lives by providing high-end, contemporary infrastructure that caters to diverse needs while promoting sustainability. Our construction division is driven by a commitment to uplifting communities and reshaping landscapes through the creation of modern, affordable, and sustainable infrastructure. By working collaboratively and embracing diverse perspectives, we aim to leave a legacy of positive change, transforming lives and inspiring future generations. Together, we envision a future where infrastructure fosters progress, inclusivity, and the well-being of all",
         "bulletise": false,
         "bullets": [
             {
                 "title": "Collaborative Synergies",
-                "img": "img/others/herobg.png",
+                "img": "img/others/constr.jpeg",
                 "content": "Our construction division operates on a foundation of collaboration and synergy. By working hand in hand with various stakeholders, including government bodies, local communities, and private entities, we ensure a holistic approach to infrastructure development. These collaborations enable us to leverage combined expertise, resources, and knowledge to deliver projects that align with the unique needs and aspirations of each community."
             },
             {
                 "title": "Modernizing Rural and Urban Infrastructure",
-                "img": "img/others/herobg.png",
+                "img": "img/others/constr2.jpeg",
                 "content": "We are committed to bridging the gap between rural and urban development by modernizing infrastructure across regions. Our team of skilled architects, engineers, and urban planners designs innovative solutions that enhance the quality of life for inhabitants while promoting economic growth. From building schools and healthcare facilities to constructing modern residential and commercial complexes, we envision a future where sustainable and contemporary infrastructure is accessible to all."
             },
             {
                 "title": "Affordable Housing Solutions",
-                "img": "img/others/herobg.png",
+                "img": "img/others/housing.jpeg",
                 "content": "Recognizing the importance of affordable housing, we offer flexible payment facilities that empower clients to acquire their properties over time at relative rates tailored to their financial capacities. Our goal is to ensure that decent and modern living spaces are within reach for individuals and families from all walks of life. By providing affordable housing solutions, we contribute to addressing the housing shortage and fostering inclusive communities."
+            }
+        ],
+        "projects": [
+            {
+                "img": "img/others/project1.jpeg",
+                "title": "Maken Villa",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem quasi sed labore aliquam distinctio consequuntur modi earum, quia optio aliquid alias nam at possimus minima magni voluptatum quidem debitis?"
             },
             {
-                "title": "Empowering Artisans and Engineering Professionals",
-                "img": "img/others/herobg.png",
-                "content": "Our commitment to creating sustainable employment opportunities drives our engagement with skilled artisans and engineering professionals. We understand that the success of our projects rests on the expertise and dedication of these individuals. By providing them with opportunities to showcase their talents and contribute to meaningful projects, we empower artisans and professionals in the engineering sector, fostering a culture of growth and innovation within our organization."
+                "img": "img/others/project2.webp",
+                "title": "Maken Villa",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem quasi sed labore aliquam distinctio consequuntur modi earum, quia optio aliquid alias nam at possimus minima magni voluptatum quidem debitis?"
+            },
+            {
+                "img": "img/others/project3.jpeg",
+                "title": "Maken Villa",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem quasi sed labore aliquam distinctio consequuntur modi earum, quia optio aliquid alias nam at possimus minima magni voluptatum quidem debitis?"
+            },
+            {
+                "img": "img/others/project4.jpeg",
+                "title": "Lusaka Central Business",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem quasi sed labore aliquam distinctio consequuntur modi earum, quia optio aliquid alias nam at possimus minima magni voluptatum quidem debitis?"
+            },
+            {
+                "img": "img/others/project5.jpeg",
+                "title": "Minister's House",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem quasi sed labore aliquam distinctio consequuntur modi earum, quia optio aliquid alias nam at possimus minima magni voluptatum quidem debitis?"
+            },
+            {
+                "img": "img/others/project6.jpeg",
+                "title": "Ibex Hill Double Stole",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem quasi sed labore aliquam distinctio consequuntur modi earum, quia optio aliquid alias nam at possimus minima magni voluptatum quidem debitis?"
             }
         ]
     },
     {
         "title": "Financing",
-        "background": "img/others/finance.gif",
+        "background": "img/others/finance.jpeg",
         "brief": "In the contemporary business landscape, financial integration and collaboration represent a powerful approach for businesses seeking sustainable growth and market expansion",
         "description": "In today's dynamic business landscape, financing and managing projects play a crucial role in driving growth and success. Whether it's funding a new venture or expanding existing operations, companies are presented with two main options: equity investment or seeking specific returns on their investments over time. This approach allows businesses to leverage financial integration and collaborative efforts to diversify their portfolio and expand their market share effectively. In this write-up, we explore the benefits and advantages of this strategy and how it can contribute to the sustainable growth of businesses.",
         "bulletise": false,
@@ -102,17 +122,17 @@
             {
                 "title": "Embracing Financial Integration",
                 "img": "img/others/herobg.png",
-                "content": "Financial integration refers to the seamless incorporation of various financial instruments and strategies to achieve strategic goals. By adopting this approach, businesses can combine equity funding and return-based investment models to create a balanced financial structure. The synergy of these two methods allows companies to take advantage of their individual strengths and diversify their risk exposure while pursuing growth opportunities."
+                "content": "Financial integration combines diverse financial instruments and strategies, blending equity funding and return-based investments for a balanced structure that manages risk and promotes growth."
             },
             {
                 "title": "Diversification for Risk Mitigation",
                 "img": "img/others/herobg.png",
-                "content": "ne of the significant advantages of integrating equity and return-based investments is risk mitigation through diversification. Equity investments, which involve ownership stakes, provide a long-term commitment to the project's success. On the other hand, return-based investments, such as debt financing or revenue-sharing agreements, offer shorter-term commitments with specific return expectations. By incorporating both, businesses can spread their risk across various projects, industries, or geographies, thereby reducing their vulnerability to market fluctuations"
+                "content": "Equity investments involve ownership and long-term commitment, while return-based investments offer shorter-term commitments and specific returns. Combining both diversifies risk across projects and industries, reducing vulnerability to market fluctuations."
             },
             {
                 "title": "Fueling Innovation and Expansion",
                 "img": "img/others/herobg.png",
-                "content": "Financial integration enables companies to access diverse funding sources, which can act as a catalyst for innovation and expansion. Equity investments often attract venture capital and strategic partnerships, fostering a culture of innovation and providing essential resources for research and development. Simultaneously, specific returns on investment allow businesses to leverage external funds for expansion without diluting their ownership. The combination of these approaches empowers companies to fuel growth initiatives and capitalize on emerging opportunities"
+                "content": "Financial integration lets companies tap into varied funding sources, catalyzing innovation and expansion. Equity investments draw venture capital and partnerships, fostering innovation and funding R&D. Specific ROI enables expansion without diluting ownership. This combo empowers growth initiatives and seizing emerging opportunities."
             },
             {
                 "title": "Building Collaborative Partnerships",
